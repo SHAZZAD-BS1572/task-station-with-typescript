@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 04 19:31:32 BDT 2024","Tue Jun 04 19:31:52 BDT 2024","19751","chrome","Tests\editingTest.spec.ts","Page object test demo","","","Login test_02",""
