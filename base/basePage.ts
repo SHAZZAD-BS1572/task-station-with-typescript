@@ -2,6 +2,7 @@ import { test as baseTest } from '@playwright/test';
 import LoginPage from "../Pages/loginPage";
 import EditingPage from "../Pages/editingPage";
 
+
 type pages = {
     loginPage: LoginPage;
     editingPage: EditingPage; 

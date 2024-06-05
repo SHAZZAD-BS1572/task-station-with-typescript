@@ -19,5 +19,8 @@ export default class LoginPage {
     await this.enterEmail(email);
     await this.enterPassword(password);
     await this.clickinBtn();
+    
   }
 }
+
+////h5[normalize-space()='Task station KT session']/ancestor::*[@id='done-drop-point']

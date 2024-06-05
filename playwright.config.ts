@@ -1,11 +1,11 @@
 import { devices, type PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-  testMatch: [
-    "/Tests/loginTest.spec.ts",
-    "/Tests/editingTest.spec.ts"
+  // testMatch: [
+  //   "/Tests/loginTest.spec.ts",
+  //   "/Tests/editingTest.spec.ts"
   
-  ],
+  // ],
 
   use: {
     

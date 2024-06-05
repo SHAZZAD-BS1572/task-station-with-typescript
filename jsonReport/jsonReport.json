@@ -53,8 +53,7 @@
         "testDir": "a:/taskStation_Automation/task-station-with-typescript",
         "testIgnore": [],
         "testMatch": [
-          "/Tests/loginTest.spec.ts",
-          "/Tests/editingTest.spec.ts"
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 30000
       }
@@ -92,14 +91,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 14,
                       "status": "passed",
-                      "duration": 20430,
+                      "duration": 26006,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-04T13:33:17.232Z",
+                      "startTime": "2024-06-05T13:01:59.481Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -110,11 +109,6 @@
                           "name": "video",
                           "contentType": "video/webm",
                           "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\trace.zip"
                         }
                       ]
                     }
@@ -134,8 +128,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-04T13:33:15.572Z",
-    "duration": 23073.658999999985,
+    "startTime": "2024-06-05T13:01:57.972Z",
+    "duration": 28125.175999999978,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
