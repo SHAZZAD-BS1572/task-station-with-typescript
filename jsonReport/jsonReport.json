@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "a:\\taskStation_Automation\\task-station-with-typescript\\playwright.config.ts",
-    "rootDir": "a:/taskStation_Automation/task-station-with-typescript",
+    "configFile": "a:\\task-station-with-typescript\\playwright.config.ts",
+    "rootDir": "a:/task-station-with-typescript",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -16,7 +16,7 @@
     "preserveOutput": "always",
     "reporter": [
       [
-        "a:\\taskStation_Automation\\task-station-with-typescript\\node_modules\\allure-playwright\\dist\\index.js",
+        "a:\\task-station-with-typescript\\node_modules\\allure-playwright\\dist\\index.js",
         null
       ],
       [
@@ -44,13 +44,13 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "a:/taskStation_Automation/task-station-with-typescript/test-results",
+        "outputDir": "a:/task-station-with-typescript/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
         "id": "chrome",
         "name": "chrome",
-        "testDir": "a:/taskStation_Automation/task-station-with-typescript",
+        "testDir": "a:/task-station-with-typescript",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -73,13 +73,13 @@
       "specs": [],
       "suites": [
         {
-          "title": "Page object test demo",
+          "title": "Task Station automation",
           "file": "Tests/editingTest.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "Login test_02",
+              "title": "Task Edit",
               "ok": true,
               "tags": [],
               "tests": [
@@ -91,29 +91,29 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 15987,
+                      "duration": 15889,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T09:47:48.675Z",
+                      "startTime": "2024-06-06T10:38:48.316Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\test-finished-1.png"
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Task-Edit-chrome\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\video.webm"
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Task-Edit-chrome\\video.webm"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\trace.zip"
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Task-Edit-chrome\\trace.zip"
                         }
                       ]
                     }
@@ -121,7 +121,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "656ba4ed4ef56bf66909-0c7ccb91c2e3fdc049f1",
+              "id": "656ba4ed4ef56bf66909-362a896ad27f6b838c8b",
               "file": "Tests/editingTest.spec.ts",
               "line": 5,
               "column": 9
@@ -133,8 +133,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-06T09:47:47.269Z",
-    "duration": 18395.944000000018,
+    "startTime": "2024-06-06T10:38:46.593Z",
+    "duration": 18601.731,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
