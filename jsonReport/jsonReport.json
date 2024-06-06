@@ -75,7 +75,7 @@
         {
           "title": "Task Station automation",
           "file": "Tests/editingTest.spec.ts",
-          "line": 4,
+          "line": 7,
           "column": 6,
           "specs": [
             {
@@ -91,14 +91,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 16104,
+                      "duration": 15113,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T12:39:13.010Z",
+                      "startTime": "2024-06-06T12:45:35.324Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -123,7 +123,7 @@
               ],
               "id": "656ba4ed4ef56bf66909-362a896ad27f6b838c8b",
               "file": "Tests/editingTest.spec.ts",
-              "line": 5,
+              "line": 8,
               "column": 9
             },
             {
@@ -139,14 +139,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8127,
+                      "duration": 7722,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T12:39:29.751Z",
+                      "startTime": "2024-06-06T12:45:51.248Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -171,7 +171,7 @@
               ],
               "id": "656ba4ed4ef56bf66909-4694e63e4deef3ee2ec0",
               "file": "Tests/editingTest.spec.ts",
-              "line": 14,
+              "line": 17,
               "column": 9
             },
             {
@@ -187,14 +187,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 7716,
+                      "duration": 7750,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T12:39:38.043Z",
+                      "startTime": "2024-06-06T12:45:59.168Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -219,7 +219,7 @@
               ],
               "id": "656ba4ed4ef56bf66909-c2b45091232e627bbd16",
               "file": "Tests/editingTest.spec.ts",
-              "line": 21,
+              "line": 24,
               "column": 9
             },
             {
@@ -235,14 +235,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 7945,
+                      "duration": 7503,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T12:39:45.915Z",
+                      "startTime": "2024-06-06T12:46:07.112Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -267,7 +267,7 @@
               ],
               "id": "656ba4ed4ef56bf66909-3996b45a859d1d9787b9",
               "file": "Tests/editingTest.spec.ts",
-              "line": 28,
+              "line": 31,
               "column": 9
             }
           ]
@@ -277,8 +277,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-06T12:39:11.773Z",
-    "duration": 42602.028000000006,
+    "startTime": "2024-06-06T12:45:34.120Z",
+    "duration": 40939.554000000004,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,
