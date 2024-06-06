@@ -91,14 +91,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 15889,
+                      "duration": 16104,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-06T10:38:48.316Z",
+                      "startTime": "2024-06-06T12:39:13.010Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -125,6 +125,150 @@
               "file": "Tests/editingTest.spec.ts",
               "line": 5,
               "column": 9
+            },
+            {
+              "title": "Todo to Complete ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 8127,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-06T12:39:29.751Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Todo-to-Complete--chrome\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Todo-to-Complete--chrome\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Todo-to-Complete--chrome\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "656ba4ed4ef56bf66909-4694e63e4deef3ee2ec0",
+              "file": "Tests/editingTest.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Complete To Blocker ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7716,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-06T12:39:38.043Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Sta-0f0ca-mation-Complete-To-Blocker--chrome\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Sta-0f0ca-mation-Complete-To-Blocker--chrome\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Sta-0f0ca-mation-Complete-To-Blocker--chrome\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "656ba4ed4ef56bf66909-c2b45091232e627bbd16",
+              "file": "Tests/editingTest.spec.ts",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Blocker To Todo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7945,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-06T12:39:45.915Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Blocker-To-Todo-chrome\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Blocker-To-Todo-chrome\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "a:\\task-station-with-typescript\\test-results\\Tests-editingTest-Task-Station-automation-Blocker-To-Todo-chrome\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "656ba4ed4ef56bf66909-3996b45a859d1d9787b9",
+              "file": "Tests/editingTest.spec.ts",
+              "line": 28,
+              "column": 9
             }
           ]
         }
@@ -133,9 +277,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-06T10:38:46.593Z",
-    "duration": 18601.731,
-    "expected": 1,
+    "startTime": "2024-06-06T12:39:11.773Z",
+    "duration": 42602.028000000006,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

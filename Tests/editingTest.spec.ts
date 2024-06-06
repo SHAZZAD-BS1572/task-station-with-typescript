@@ -10,5 +10,26 @@ test.describe("Task Station automation", async () => {
 
 
     });
+
+    test("Todo to Complete ", async ({ page, baseURL, loginPage,editingPage }) => {
+      await page.goto(`${baseURL}auth/login`);
+      await loginPage.login(data.email, data.password);
+      await editingPage.clickDetail(data.taskTitle)
+      await editingPage.todoToComplete()
+    });
+
+    test("Complete To Blocker ", async ({ page, baseURL, loginPage,editingPage }) => {
+      await page.goto(`${baseURL}auth/login`);
+      await loginPage.login(data.email, data.password);
+      await editingPage.clickDetail(data.taskTitle)
+      await editingPage.completeToBlocker()
+    });
+
+    test("Blocker To Todo", async ({ page, baseURL, loginPage,editingPage }) => {
+      await page.goto(`${baseURL}auth/login`);
+      await loginPage.login(data.email, data.password);
+      await editingPage.clickDetail(data.taskTitle)
+      await editingPage.blockerToTodo()
+    });
     
   });

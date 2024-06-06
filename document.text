@@ -33,7 +33,7 @@ test('Extract id attribute and assert its value', async ({ page }) => {
   await page.goto('http://your-website-url');
  
   // Locate the element using XPath and get its id attribute
-  const elementHandle = await page.$('//h5[normalize-space()="Task station KT session"]/ancestor::*[@class="MuiStack-root css-mmtdxd"]');
+  const elementHandle = await page.$('//h5[normalize-space()="task to edit"]/ancestor::*[@class="MuiStack-root css-mmtdxd"]');
   const idValue = await elementHandle?.getAttribute('id');
  
   // Assert that the id attribute value is "done-drop-point"
