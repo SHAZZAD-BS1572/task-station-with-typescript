@@ -91,14 +91,14 @@
                   "projectName": "chrome",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 26006,
+                      "duration": 15987,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-05T13:01:59.481Z",
+                      "startTime": "2024-06-06T09:47:48.675Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -109,6 +109,11 @@
                           "name": "video",
                           "contentType": "video/webm",
                           "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "a:\\taskStation_Automation\\task-station-with-typescript\\test-results\\Tests-editingTest-Page-object-test-demo-Login-test-02-chrome\\trace.zip"
                         }
                       ]
                     }
@@ -128,8 +133,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-05T13:01:57.972Z",
-    "duration": 28125.175999999978,
+    "startTime": "2024-06-06T09:47:47.269Z",
+    "duration": 18395.944000000018,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

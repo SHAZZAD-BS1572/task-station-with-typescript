@@ -15,6 +15,7 @@ const config: PlaywrightTestConfig = {
     viewport: { width: 1536, height: 730 },
     screenshot: "on",
     video: "on",
+    trace:"on"
   },
 
   projects:[

@@ -6,9 +6,7 @@ test.describe("Page object test demo", async () => {
       await page.goto(`${baseURL}auth/login`);
       await loginPage.login(data.email, data.password);
       await editingPage.clickDetail(data.taskTitle)
-      await page.waitForTimeout(3000)
-      await editingPage.editDetail()
-      await page.waitForTimeout(3000)
+      await editingPage.editDetail(data.project,data.tag,data.description,data.oldTime,data.date,data.editiedTime,data.remark)
 
 
     });

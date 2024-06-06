@@ -1,68 +1,25 @@
-import test from "@playwright/test";
-import moment from "moment";
+import { test, expect } from '@playwright/test';
 
-test("Calendar Demo Using moment", async ({ page }) => {
-  await page.goto(
-    "https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo"
-  );
-
-  await selectStartDate(6, "May 2023");
-
-  await page.waitForTimeout(3000);
-
-  await selectEndDate(6, "December 2024");
-
-  await page.waitForTimeout(5000);
-
-  async function selectStartDate(date: number, dateToSelect: string) {
-    await page.click("//input[@placeholder='Start date']");
-
-    const mmyy = page.locator(
-      "div[class='datepicker-days'] th[class='datepicker-switch']"
-    );
-    const prev = page.locator("div[class='datepicker-days'] th[class='prev']");
-    const next = page.locator("div[class='datepicker-days'] th[class='next']");
-
-    const thisMonth = moment(dateToSelect, "MMMM YYYY").isBefore(moment()); 
-    console.log(thisMonth);
-
-    while ((await mmyy.textContent()) !== dateToSelect) {
-      if (thisMonth) {
-        await prev.click();
-      } else {
-        await next.click();
-      }
-      
-    }
-    await page.click(
-      `(//td[contains(@class,'day')][normalize-space()='${date}'])[1]`
-    );
-  }
-
-  async function selectEndDate(date: number, dateToSelect: string) {
-    await page.click("//input[@placeholder='End date']");
-
-    const mmyy = page.locator(
-      "div[class='datepicker-days'] th[class='datepicker-switch']"
-    );
-    const prev = page.locator("div[class='datepicker-days'] th[class='prev']");
-    const next = page.locator("div[class='datepicker-days'] th[class='next']");
-
-    const thisMonth = moment(dateToSelect, "MMMM YYYY").isBefore(moment()); 
-    console.log(thisMonth);
-
-    while ((await mmyy.textContent()) !== dateToSelect) {
-      if (thisMonth) {
-        await prev.click();
-      } else {
-        await next.click();
-      }
-    
-    }
-    await page.click(
-      `(//td[contains(@class,'day')][normalize-space()='${date}'])[1]`
-    );
-  }
+test('test', async ({ page }) => {
+  await page.goto('https://sbueurope.mytask.today/auth/login');
+  await page.getByLabel('Email').click();
+  await page.getByLabel('Email').fill('sumaiya.habib@brainstation-23.com');
+  await page.getByLabel('Password', { exact: true }).click();
+  await page.getByLabel('Password', { exact: true }).fill('BS1574');
+  await page.getByRole('button', { name: 'Login' }).click();
+  await page.getByLabel('Details').getByLabel('icon-button').click();
+  await page.getByRole('tab', { name: 'Work log' }).click();
+  await page.getByText('15m').click();
+  await page.getByLabel('Choose date, selected date is Jun 4,').click();
+  await page.getByRole('gridcell', { name: '6', exact: true }).click();
+  await page.getByLabel('Total Time').click();
+  await page.getByLabel('Total Time').fill('1h');
+  await page.getByLabel('Remarks').click();
+  await page.getByLabel('Remarks').fill('test');
+  await page.getByRole('button', { name: 'Edit' }).click();
+  await expect(page.getByText('Log Edited')).toBeVisible();
+  await expect(page.getByRole('list')).toContainText('5m');
+  await page.getByText('-06-05').click();
+  await expect(page.getByRole('list')).toContainText('2024-06-05');
+  await page.getByRole('button', { name: 'Close' }).click();
 });
-
-
