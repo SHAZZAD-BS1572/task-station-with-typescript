@@ -18,21 +18,21 @@ test.describe("Task Station automation", async () => {
       // await page.goto(`${baseURL}auth/login`);
       // await loginPage.login(data.email, data.password);
       await editingPage.clickDetail(data.taskTitle)
-      await editingPage.todoToComplete()
+      await editingPage.todoToComplete(data.taskTitle)
     });
 
     test("Complete To Blocker ", async ({ page, baseURL, loginPage,editingPage }) => {
       // await page.goto(`${baseURL}auth/login`);
       // await loginPage.login(data.email, data.password);
       await editingPage.clickDetail(data.taskTitle)
-      await editingPage.completeToBlocker()
+      await editingPage.completeToBlocker(data.taskTitle)
     });
 
     test("Blocker To Todo", async ({ page, baseURL, loginPage,editingPage }) => {
       // await page.goto(`${baseURL}auth/login`);
       // await loginPage.login(data.email, data.password);
       await editingPage.clickDetail(data.taskTitle)
-      await editingPage.blockerToTodo()
+      await editingPage.blockerToTodo(data.taskTitle)
     });
     
   });
